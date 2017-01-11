@@ -19,6 +19,7 @@
 		E4319B451E26AD0600ADAADB /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B441E26AD0600ADAADB /* RoundTextField.swift */; };
 		E4319B471E26B48400ADAADB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B461E26B48400ADAADB /* RoundedButton.swift */; };
 		E4319B491E26B7E000ADAADB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B481E26B7E000ADAADB /* LoginVC.swift */; };
+		E4319B4C1E26BCAE00ADAADB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B4B1E26BCAE00ADAADB /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E4319B441E26AD0600ADAADB /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		E4319B461E26B48400ADAADB /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		E4319B481E26B7E000ADAADB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E4319B4B1E26BCAE00ADAADB /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		E4319B181E25AB2400ADAADB /* DevChat */ = {
 			isa = PBXGroup;
 			children = (
+				E4319B4A1E26BC9D00ADAADB /* Services */,
 				E4319B3E1E25CA8B00ADAADB /* Protocols */,
 				E4319B331E25AE4300ADAADB /* View */,
 				E4319B321E25AE2B00ADAADB /* Controller */,
@@ -138,6 +141,14 @@
 				E4319B411E25CBA500ADAADB /* AAPLCameraVCDelegate.h */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E4319B4A1E26BC9D00ADAADB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E4319B4B1E26BCAE00ADAADB /* AuthService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				E4319B451E26AD0600ADAADB /* RoundTextField.swift in Sources */,
 				E4319B3D1E25C11A00ADAADB /* AAPLPreviewView.m in Sources */,
 				E4319B3C1E25C11A00ADAADB /* AAPLCameraViewController.m in Sources */,
+				E4319B4C1E26BCAE00ADAADB /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
