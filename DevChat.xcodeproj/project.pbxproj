@@ -16,6 +16,8 @@
 		E4319B3C1E25C11A00ADAADB /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4319B391E25C11A00ADAADB /* AAPLCameraViewController.m */; };
 		E4319B3D1E25C11A00ADAADB /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4319B3B1E25C11A00ADAADB /* AAPLPreviewView.m */; };
 		E4319B431E25DF5600ADAADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4319B421E25DF5600ADAADB /* GoogleService-Info.plist */; };
+		E4319B451E26AD0600ADAADB /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B441E26AD0600ADAADB /* RoundTextField.swift */; };
+		E4319B471E26B48400ADAADB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B461E26B48400ADAADB /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E4319B3B1E25C11A00ADAADB /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLPreviewView.m; path = ../AAPLPreviewView.m; sourceTree = "<group>"; };
 		E4319B411E25CBA500ADAADB /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		E4319B421E25DF5600ADAADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4319B441E26AD0600ADAADB /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		E4319B461E26B48400ADAADB /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			children = (
 				E4319B3A1E25C11A00ADAADB /* AAPLPreviewView.h */,
 				E4319B3B1E25C11A00ADAADB /* AAPLPreviewView.m */,
+				E4319B441E26AD0600ADAADB /* RoundTextField.swift */,
+				E4319B461E26B48400ADAADB /* RoundedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4319B1C1E25AB2400ADAADB /* CameraVC.swift in Sources */,
+				E4319B471E26B48400ADAADB /* RoundedButton.swift in Sources */,
 				E4319B1A1E25AB2400ADAADB /* AppDelegate.swift in Sources */,
+				E4319B451E26AD0600ADAADB /* RoundTextField.swift in Sources */,
 				E4319B3D1E25C11A00ADAADB /* AAPLPreviewView.m in Sources */,
 				E4319B3C1E25C11A00ADAADB /* AAPLCameraViewController.m in Sources */,
 			);
