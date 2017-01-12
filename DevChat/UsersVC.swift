@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseDatabase
 import FirebaseStorage
+import FirebaseAuth
 
 class UsersVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -109,11 +110,11 @@ class UsersVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                     print("Error uploading video: \(err?.localizedDescription)")
                 } else {
                     let downloadURL = meta!.downloadURL()
-                    print("Download URL: \(downloadURL)")
+                    DataService.instance.sendMediaPullRequest(senderUID: FIRAuth.auth()!.currentUser!.uid, sendingTo: self.selectedUsers, mediaURL: downloadURL!, textSnippet: "Coding today was LEGIT!!!")
                     // save this somewhere
-                    self.dismiss(animated: true, completion: nil)
                 }
             })
+            self.dismiss(animated: true, completion: nil)
         } else if let snap = snapData {
             let ref = DataService.instance.imagesStorageRef.child("\(NSUUID().uuidString).jpg")
             _ = ref.put(snap, metadata: nil, completion: { (meta:FIRStorageMetadata?, err:Error?) in
@@ -122,6 +123,7 @@ class UsersVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                     self.dismiss(animated: true, completion: nil)
                 }
             })
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
