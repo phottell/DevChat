@@ -21,6 +21,9 @@
 		E4319B491E26B7E000ADAADB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B481E26B7E000ADAADB /* LoginVC.swift */; };
 		E4319B4C1E26BCAE00ADAADB /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B4B1E26BCAE00ADAADB /* AuthService.swift */; };
 		E4319B4E1E26FF1000ADAADB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B4D1E26FF1000ADAADB /* DataService.swift */; };
+		E4319B501E2709BC00ADAADB /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B4F1E2709BC00ADAADB /* UsersVC.swift */; };
+		E4319B521E270C4500ADAADB /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B511E270C4500ADAADB /* UserCell.swift */; };
+		E4319B541E270F8C00ADAADB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4319B531E270F8C00ADAADB /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,9 @@
 		E4319B481E26B7E000ADAADB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E4319B4B1E26BCAE00ADAADB /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E4319B4D1E26FF1000ADAADB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E4319B4F1E2709BC00ADAADB /* UsersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		E4319B511E270C4500ADAADB /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E4319B531E270F8C00ADAADB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				E4319B371E25C11A00ADAADB /* AAPLCameraVCDelegate.h */,
 				E4319B2B1E25AE2100ADAADB /* DevChat-Bridging-Header.h */,
 				E4319B421E25DF5600ADAADB /* GoogleService-Info.plist */,
+				E4319B531E270F8C00ADAADB /* User.swift */,
 			);
 			path = DevChat;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 				E4319B391E25C11A00ADAADB /* AAPLCameraViewController.m */,
 				E4319B1B1E25AB2400ADAADB /* CameraVC.swift */,
 				E4319B481E26B7E000ADAADB /* LoginVC.swift */,
+				E4319B4F1E2709BC00ADAADB /* UsersVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 				E4319B3B1E25C11A00ADAADB /* AAPLPreviewView.m */,
 				E4319B441E26AD0600ADAADB /* RoundTextField.swift */,
 				E4319B461E26B48400ADAADB /* RoundedButton.swift */,
+				E4319B511E270C4500ADAADB /* UserCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -285,9 +294,12 @@
 				E4319B471E26B48400ADAADB /* RoundedButton.swift in Sources */,
 				E4319B491E26B7E000ADAADB /* LoginVC.swift in Sources */,
 				E4319B1A1E25AB2400ADAADB /* AppDelegate.swift in Sources */,
+				E4319B501E2709BC00ADAADB /* UsersVC.swift in Sources */,
 				E4319B451E26AD0600ADAADB /* RoundTextField.swift in Sources */,
 				E4319B3D1E25C11A00ADAADB /* AAPLPreviewView.m in Sources */,
+				E4319B541E270F8C00ADAADB /* User.swift in Sources */,
 				E4319B3C1E25C11A00ADAADB /* AAPLCameraViewController.m in Sources */,
+				E4319B521E270C4500ADAADB /* UserCell.swift in Sources */,
 				E4319B4C1E26BCAE00ADAADB /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
